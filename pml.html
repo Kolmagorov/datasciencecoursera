@@ -240,7 +240,6 @@ hr {
 +Testing the model (on small subset)
 +Repeat 4-6 to built an alternative model</li>
 <li>Apply to big subset</li>
-<li>Refine tuning parameters (optional)</li>
 <li>Comparision of models</li>
 </ol>
 
@@ -441,7 +440,7 @@ RF.BIG&lt;-predict(big.gbm,newdata=problem)
 CM.rfB$overall[1]
 </code></pre>
 
-<h3>8. Comparision of models</h3>
+<h3>7. Comparision of models</h3>
 
 <pre><code class="r">solution&lt;-data.frame(gbmSmall=gbm.small,gbmBig=GBM.BIG,rfBIG=RF.BIG)
 </code></pre>

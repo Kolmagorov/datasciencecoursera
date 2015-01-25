@@ -37,8 +37,7 @@ The goal of this project is to predict the manner in which they did the exercise
     +Testing the model (on small subset)
     +Repeat 4-6 to built an alternative model
 6. Apply to big subset
-7. Refine tuning parameters (optional)
-8. Comparision of models
+7. Comparision of models
 
 ***
 ### 1. Looking at structure of data
@@ -245,7 +244,7 @@ RF.BIG<-predict(big.gbm,newdata=problem)
 CM.rfB$overall[1]
 ```
 
-### 8. Comparision of models
+### 7. Comparision of models
 
 
 ```r
